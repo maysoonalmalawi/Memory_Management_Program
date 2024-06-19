@@ -7,14 +7,14 @@ Multiple requests are applied in the program: requesting a contiguous block
 of memory, releasing a contiguous block of memory, compacting empty holes, and 
 reporting allocated and free memory. Our implemented program will respond to 
 these different requests. 
- Request a contiguous a block of memory: is allocating memory approach by 
+1- Request a contiguous a block of memory: is allocating memory approach by 
 using one of the following algorithms: first-fit (F), worst-fit (W) and best
 fit (B) that is entered in the request command. 
- Release a contiguous block of memory: is the process of releasing the 
+2- Release a contiguous block of memory: is the process of releasing the 
 memory that is allocated to the process.  
- Compact: its role is to find all unused small holes in the memory and 
+3- Compact: its role is to find all unused small holes in the memory and 
 compact them as a large hole that may be used to allocate processes. 
- Report:  reporting all the regions in the memory, both allocated and free 
+4- Report:  reporting all the regions in the memory, both allocated and free 
 regions. 
 
 To ensure that the program works properly, the following tests will take place: 
