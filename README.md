@@ -46,7 +46,8 @@ At the begnning of the program, the following initlizations are implemented:
 - Number of Frames = 256 
 - Page size = 256 byets 
 - Size of Page Table = 256 
-- Size of Physcial Memory = Frame Size * Number of Frames (256 * 256) 
+- Size of Physcial Memory = Frame Size * Number of Frames (256 * 256)
+
 The program will read one hundred 32-bit logical addresses from 
 addresses.txt input file. In each logical address, the 16 leftmost bits will be ignored 
 (masked) and the 16 rightmost bits will be extracted as an 8-bit page number and an 
