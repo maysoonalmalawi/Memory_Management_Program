@@ -7,13 +7,17 @@ Multiple requests are applied in the program: requesting a contiguous block
 of memory, releasing a contiguous block of memory, compacting empty holes, and 
 reporting allocated and free memory. Our implemented program will respond to 
 these different requests. 
+
 1- Request a contiguous a block of memory: is allocating memory approach by 
 using one of the following algorithms: first-fit (F), worst-fit (W) and best
 fit (B) that is entered in the request command. 
+
 2- Release a contiguous block of memory: is the process of releasing the 
 memory that is allocated to the process.  
+
 3- Compact: its role is to find all unused small holes in the memory and 
 compact them as a large hole that may be used to allocate processes. 
+
 4- Report:  reporting all the regions in the memory, both allocated and free 
 regions. 
 
@@ -36,13 +40,13 @@ storing the corresponding value in the latter.
 Two input files will be used: - - 
 addresses.txt which contains logical addresses 
 correct.txt which contains the corresponding values 
-At the begnning of the program, the following initlizations are implemented: - - - - - - 
-myTestData: HashMap (Key: logical address, Value: correct value) 
-Frame Size = 256 bytes 
-Number of Frames = 256 
-Page size = 256 byets 
-Size of Page Table = 256 
-Size of Physcial Memory = Frame Size * Number of Frames (256 * 256) 
+At the begnning of the program, the following initlizations are implemented: 
+- myTestData: HashMap (Key: logical address, Value: correct value) 
+- Frame Size = 256 bytes 
+- Number of Frames = 256 
+- Page size = 256 byets 
+- Size of Page Table = 256 
+- Size of Physcial Memory = Frame Size * Number of Frames (256 * 256) 
 The program will read one hundred 32-bit logical addresses from 
 addresses.txt input file. In each logical address, the 16 leftmost bits will be ignored 
 (masked) and the 16 rightmost bits will be extracted as an 8-bit page number and an 
