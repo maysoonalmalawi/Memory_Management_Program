@@ -1,11 +1,6 @@
 /*
     -- Designing and simulating a contiguous region of memory --
     Operating System CPCS-361
-    Team members:
-        1. Amani Biraik - B2
-        2. Ghaida Alsharif - B3
-        3. Leen Hosiki - B2
-        4. Maysoon Almaalawi - B2
 
     Compiler name and version: Netbeans IDE 8.2
     Hardware processor: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
